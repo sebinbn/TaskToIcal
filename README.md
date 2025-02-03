@@ -5,6 +5,6 @@
 
 **Future Expansion:** The current solution is minimal . I might in future extend this program to first import user supplied calendar and then create tasks around the existing calendar. Currently, I have to adjust task times for task that may be clashing with existing events on my calendar before import. 
 
-**Repository Contents:** This repository has both the sourcecode in Python and the executable file. 
+**Repository Contents:** This repository has both the sourcecode in Python (iCalCreate.py) and the executable file. The .exe file that can be copied to run the program locally is iCalCreate.exe The rest are files generated while creating an .exe from the .py file using pyinstaller
 
 
