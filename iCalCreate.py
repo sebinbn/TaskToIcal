@@ -45,7 +45,7 @@ def get_tasks_from_user():
     if not start_date:
         start_date = (datetime.today() + timedelta(days = 1)).strftime("%Y-%m-%d %H:%M") 
         messagebox.showinfo("Note", "Tomorrow's date used as no date given.")
-        #return
+       
     
     while True:
         task = simpledialog.askstring("Input", "Enter task name (or leave blank to finish):")
